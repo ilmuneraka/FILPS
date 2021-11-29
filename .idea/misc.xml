@@ -4,11 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_eye_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_help_24.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_receipt_long_24.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_jadwal.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_menu_camera.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/shapeemail.xml" value="0.2703125" />
@@ -23,10 +27,11 @@
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_dashboard.xml" value="0.152" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_gallery.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_home.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_jadwal.xml" value="0.17481884057971014" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_krs.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_slideshow.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/nav_header_drawer.xml" value="0.2" />
-        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/menu/activity_main_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/menu/activity_main_drawer.xml" value="0.2" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/menu/drawer.xml" value="0.13020833333333334" />
       </map>
     </option>

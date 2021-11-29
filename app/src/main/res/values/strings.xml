@@ -10,5 +10,8 @@
 
     <string name="menu_dashboard">Dashboard</string>
     <string name="menu_krs">KRS</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_program">Program</string>
+    <string name="menu_jadwal">Jadwal</string>
+    <string name="menu_profil">Profil</string>
+    <string name="menu_bantuan">Bantuan</string>
 </resources>
