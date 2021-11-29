@@ -28,4 +28,16 @@
         android:name="com.example.filps.ui.jadwal.JadwalFragment"
         android:label="@string/menu_jadwal"
         tools:layout="@layout/fragment_jadwal" />
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.example.filps.ui.profil.ProfilFragment"
+        android:label="@string/menu_profil"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/nav_bantuan"
+        android:name="com.example.filps.ui.bantuan.BantuanFragment"
+        android:label="@string/menu_bantuan"
+        tools:layout="@layout/fragment_bantuan" />
 </navigation>

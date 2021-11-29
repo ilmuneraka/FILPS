@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/deskripsi"
-        android:layout_width="291dp"
-        android:layout_height="187dp"
+        android:layout_width="321dp"
+        android:layout_height="184dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins_medium"
         android:text="FILPS adalah aplikasi yang dapat membantu mahasiswa FILKOM (Fakultas Ilmu Komputer) untuk melakukan kegiatan KRS (Kartu Rencana Studi). Anda dapat melakukan KRS serta melihat jadwal kuliah anda melalui aplikasi ini. Aplikasi ini juga berisikan program dari kampus merdeka yang bisa diambil oleh mahasiwa. Untuk mulai menggunakan FILPS klik tombol di bawah ini"
