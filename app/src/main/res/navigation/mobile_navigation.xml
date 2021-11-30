@@ -11,11 +11,11 @@
         android:label="@string/menu_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
-    <fragment
+    <activity
         android:id="@+id/nav_krs"
-        android:name="com.example.filps.ui.krs.KrsFragment"
+        android:name="com.example.filps.KRSActivity"
         android:label="@string/menu_krs"
-        tools:layout="@layout/fragment_krs" />
+        tools:layout="@layout/activity_krs" />
 
     <fragment
         android:id="@+id/nav_program"
@@ -29,11 +29,11 @@
         android:label="@string/menu_jadwal"
         tools:layout="@layout/fragment_jadwal" />
 
-    <fragment
+    <activity
         android:id="@+id/nav_profil"
-        android:name="com.example.filps.ui.profil.ProfilFragment"
+        android:name="com.example.filps.ProfilActivity"
         android:label="@string/menu_profil"
-        tools:layout="@layout/fragment_profil" />
+        tools:layout="@layout/activity_profil" />
 
     <fragment
         android:id="@+id/nav_bantuan"

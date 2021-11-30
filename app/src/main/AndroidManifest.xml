@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FILPS">
         <activity
+            android:name=".KRSActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfilEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfilActivity"
+            android:exported="true" />
+        <activity
             android:name=".DrawerActivity"
             android:exported="true"
             android:label="@string/title_activity_drawer"

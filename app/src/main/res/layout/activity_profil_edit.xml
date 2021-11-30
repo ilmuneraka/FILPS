@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilEditActivity"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Simpan"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edit_nohp"
+        app:layout_constraintTop_toBottomOf="@+id/edit_nohp"
+        app:layout_constraintVertical_bias="0.050000012" />
+
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="260dp"
+        android:layout_height="39dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins_light"
+        android:inputType="textPersonName"
+        android:text="Nama Lengkap"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <EditText
+        android:id="@+id/edit_nim"
+        android:layout_width="260dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins_light"
+        android:text="NIM"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_nama" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="260dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins_light"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_nim" />
+
+    <EditText
+        android:id="@+id/edit_tgl"
+        android:layout_width="260dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins_light"
+        android:inputType="date"
+        android:text="Tanggal Lahir"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_email" />
+
+    <EditText
+        android:id="@+id/edit_alamat"
+        android:layout_width="260dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins_light"
+        android:text="Alamat"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_tgl" />
+
+    <EditText
+        android:id="@+id/edit_nohp"
+        android:layout_width="260dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/poppins_light"
+        android:text="No. HP"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_alamat" />
+</androidx.constraintlayout.widget.ConstraintLayout>
