@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_back.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_eye_24.xml" value="0.2703125" />
@@ -16,10 +17,14 @@
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_jadwal.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_menu_camera.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_trash_bin.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/shapeemail.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/shapematkul.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.141796875" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout-w936dp/activity_login.xml" value="0.12397540983606557" />
-        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_coba.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_drawer.xml" value="0.2" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_jadwal.xml" value="0.13503649635036497" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_krs.xml" value="0.176" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_login.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_main.xml" value="0.176" />
@@ -33,13 +38,22 @@
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_gallery.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_home.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_jadwal.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_jumat.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_krs.xml" value="0.264" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_krs_matkul.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_krs_matkul_ditambah.xml" value="0.264" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_profil.xml" value="0.2" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_program.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_rabu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_selasa.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_senin.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_slideshow.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_terpilih.xml" value="0.176" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_tersedia.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragmentkamis.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/jadwal_adapter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/matkul_adapter.xml" value="0.4" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/matkul_terpilih_adapter.xml" value="0.2" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/nav_header_drawer.xml" value="0.2" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/menu/activity_main_drawer.xml" value="0.176" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/menu/drawer.xml" value="0.13020833333333334" />

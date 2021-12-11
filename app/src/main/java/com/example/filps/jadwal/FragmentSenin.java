@@ -1,4 +1,4 @@
-package com.example.filps;
+package com.example.filps.jadwal;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,20 +9,25 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class FragmentTerpilih extends Fragment {
+import com.example.filps.JadwalAdapter;
+import com.example.filps.MatkulTerpilihAdapter;
+import com.example.filps.R;
+
+public class FragmentSenin extends Fragment {
 
     String[] names = {"PAPB-A", "PAPB-B", "PAPB-C", "PAPB-D"};
 
-    public FragmentTerpilih(){
+    public FragmentSenin() {
 
     }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        View view = inflater.inflate(R.layout.fragment_terpilih, container, false);
+        View view = inflater.inflate(R.layout.fragment_senin, container, false);
 
         RecyclerView recyclerView=view.findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this.getContext()));
-        recyclerView.setAdapter(new MatkulTerpilihAdapter(names));
+        recyclerView.setAdapter(new JadwalAdapter(names));
 
         return view;
     }

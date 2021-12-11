@@ -1,37 +1,37 @@
 package com.example.filps;
 
+import android.os.Bundle;
+
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import android.os.Bundle;
-import androidx.appcompat.widget.Toolbar;
-
+import com.example.filps.jadwal.FragmentJumat;
+import com.example.filps.jadwal.FragmentKamis;
+import com.example.filps.jadwal.FragmentRabu;
+import com.example.filps.jadwal.FragmentSelasa;
+import com.example.filps.jadwal.FragmentSenin;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class KRSActivity extends AppCompatActivity {
+public class JadwalActivity extends AppCompatActivity {
 
     private TabLayout tab;
     private ViewPager viewPager;
-//    private Toolbar toolbar;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_krs);
+
+        setContentView(R.layout.activity_jadwal);
 
         tab = findViewById(R.id.tab);
         viewPager = findViewById(R.id.view_pager);
-//        toolbar = findViewById(R.id.tol);
-//
-//        setSupportActionBar(toolbar);
-//        toolbar.setTitle(R.string.app_name);
-//        toolbar.setNavigationIcon(getResources().getDrawable(R.drawable.ic_back));
 
 
         tab.setupWithViewPager(viewPager);
@@ -55,9 +55,12 @@ public class KRSActivity extends AppCompatActivity {
     }
 
     private void SetupViewPager() {
-        MyViewPagerAdapter adapter = new MyViewPagerAdapter(getSupportFragmentManager());
-        adapter.AddFragment(new FragmentTersedia(), "Mata Kuliah");
-        adapter.AddFragment(new FragmentTerpilih(), "Telah Ditambahkan");
+        JadwalActivity.MyViewPagerAdapter adapter = new JadwalActivity.MyViewPagerAdapter(getSupportFragmentManager());
+        adapter.AddFragment(new FragmentSenin(), "Sen");
+        adapter.AddFragment(new FragmentSelasa(), "Sel");
+        adapter.AddFragment(new FragmentRabu(), "Rab");
+        adapter.AddFragment(new FragmentKamis(), "Kam");
+        adapter.AddFragment(new FragmentJumat(), "Jum");
         viewPager.setAdapter(adapter);
     }
 
@@ -85,7 +88,7 @@ public class KRSActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return 2;
+            return 5;
         }
     }
 }

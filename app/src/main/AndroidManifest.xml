@@ -13,6 +13,9 @@
             android:name=".KRSActivity"
             android:exported="true" />
         <activity
+            android:name=".JadwalActivity"
+            android:exported="true" />
+        <activity
             android:name=".ProfilEditActivity"
             android:exported="true" />
         <activity

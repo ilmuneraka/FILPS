@@ -23,11 +23,11 @@
         android:label="@string/menu_program"
         tools:layout="@layout/fragment_program" />
 
-    <fragment
+    <activity
         android:id="@+id/nav_jadwal"
-        android:name="com.example.filps.ui.jadwal.JadwalFragment"
+        android:name="com.example.filps.JadwalActivity"
         android:label="@string/menu_jadwal"
-        tools:layout="@layout/fragment_jadwal" />
+        tools:layout="@layout/activity_jadwal" />
 
     <activity
         android:id="@+id/nav_profil"

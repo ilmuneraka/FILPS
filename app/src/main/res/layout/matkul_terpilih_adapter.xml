@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="95dp"
+        android:layout_marginHorizontal="5dp"
+        android:background="@drawable/shapematkul">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/nama_matkul">
+
+            <ImageView
+                android:background="@color/signupColor"
+                android:id="@+id/tambah"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ic_trash_bin" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/nama_matkul"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="PAPB-A"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="20sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/kode_matkul"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Kode matkul: as2sddw"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="12sp"
+            android:layout_below="@+id/nama_matkul"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/jadwal_matkul"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Senin, 12:30"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="12sp"
+            android:layout_below="@+id/kode_matkul"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/sks_matkul"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="3 sks"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="12sp"
+            android:layout_below="@+id/jadwal_matkul"
+            android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
