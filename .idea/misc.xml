@@ -12,6 +12,7 @@
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_help_24.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_baseline_receipt_long_24.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/ic_jadwal.xml" value="0.14635416666666667" />
@@ -30,6 +31,7 @@
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_profil.xml" value="0.16847826086956522" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_profil_edit.xml" value="0.2" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_program.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/app_bar_drawer.xml" value="0.176" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/content_drawer.xml" value="0.2" />
@@ -55,6 +57,7 @@
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/matkul_adapter.xml" value="0.4" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/matkul_terpilih_adapter.xml" value="0.2" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/nav_header_drawer.xml" value="0.2" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/program_adapter.xml" value="0.264" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/menu/activity_main_drawer.xml" value="0.176" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/menu/drawer.xml" value="0.13020833333333334" />
       </map>

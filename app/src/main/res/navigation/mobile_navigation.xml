@@ -17,11 +17,11 @@
         android:label="@string/menu_krs"
         tools:layout="@layout/activity_krs" />
 
-    <fragment
+    <activity
         android:id="@+id/nav_program"
-        android:name="com.example.filps.ui.program.ProgramFragment"
+        android:name="com.example.filps.ProgramActivity"
         android:label="@string/menu_program"
-        tools:layout="@layout/fragment_program" />
+        tools:layout="@layout/activity_program" />
 
     <activity
         android:id="@+id/nav_jadwal"

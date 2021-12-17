@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FILPS">
         <activity
+            android:name=".ProgramActivity"
+            android:exported="true" />
+        <activity
             android:name=".KRSActivity"
             android:exported="true" />
         <activity
