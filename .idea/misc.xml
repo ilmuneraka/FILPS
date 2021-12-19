@@ -23,6 +23,7 @@
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/drawable/shapematkul.xml" value="0.2703125" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.141796875" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout-w936dp/activity_login.xml" value="0.12397540983606557" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_bantuan.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_coba.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_drawer.xml" value="0.2" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/activity_jadwal.xml" value="0.13503649635036497" />
@@ -36,7 +37,9 @@
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/app_bar_drawer.xml" value="0.176" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/content_drawer.xml" value="0.2" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_bantuan.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_contact.xml" value="0.264" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_faq.xml" value="0.264" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_gallery.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_home.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/HP PAVILION/AndroidStudioProjects/FILPS/app/src/main/res/layout/fragment_jadwal.xml" value="0.17481884057971014" />

@@ -35,9 +35,9 @@
         android:label="@string/menu_profil"
         tools:layout="@layout/activity_profil" />
 
-    <fragment
+    <activity
         android:id="@+id/nav_bantuan"
-        android:name="com.example.filps.ui.bantuan.BantuanFragment"
+        android:name="com.example.filps.BantuanActivity"
         android:label="@string/menu_bantuan"
-        tools:layout="@layout/fragment_bantuan" />
+        tools:layout="@layout/activity_bantuan" />
 </navigation>

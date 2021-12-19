@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/contact_us_vector_illustration_part_02_1_removebg_preview_1" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="546dp"
+        android:layout_marginTop="1dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/shapematkul">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:id="@+id/imageView"
+
+                    android:layout_marginTop="25dp">
+
+                    <ImageView
+                        android:id="@+id/logo_whatsapp"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:scaleType="centerCrop"
+                        android:background="@color/signupColor"
+                        app:srcCompat="@drawable/whatsapp_logo_1_1" />
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:background="#C4C4C4" />
+
+                <TextView
+                    android:id="@+id/whatsapp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Official Filps Whatsapp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/imageView"/>
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Number : +62851 1123 4456"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="12sp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:layout_below="@+id/whatsapp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/tiffany"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mrs. Tiffany Jonah"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="14sp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_below="@+id/number"
+                    android:layout_toRightOf="@id/imageView"/>
+
+                <TextView
+                    android:id="@+id/number_tiffany"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Number : +6281 4567 8899"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_light"
+                    android:textSize="12sp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:layout_below="@+id/tiffany"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/shapematkul">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:id="@+id/imageViewMail"
+
+                    android:layout_marginTop="25dp">
+
+                    <ImageView
+                        android:id="@+id/logo_gmail"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:scaleType="centerCrop"
+                        android:background="@color/signupColor"
+                        app:srcCompat="@drawable/_560px_gmail_icon__2020__1" />
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imageViewMail"
+                    android:background="#C4C4C4" />
+
+                <TextView
+                    android:id="@+id/gmail"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/imageViewMail"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Official Filps Mail"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gmail"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/imageViewMail"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Mail : customer_care@filps.com"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/thomas"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/address"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@id/imageViewMail"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Mr. Thomas Kyle"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/address_thomas"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/thomas"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/imageViewMail"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Mail : thomaskyle@filps.com"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_height="95dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/shapematkul">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:id="@+id/imageViewCustomer"
+
+                    android:layout_marginTop="25dp">
+
+                    <ImageView
+                        android:id="@+id/logo_cc"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:scaleType="centerCrop"
+                        android:background="@color/signupColor"
+                        app:srcCompat="@drawable/iphone_telephone_logo_computer_icons_red_call_icon_11553520215xtqxhnnj6r_removebg_preview_1" />
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/imageViewCustomer"
+                    android:layout_marginLeft="5dp"
+                    android:background="#C4C4C4" />
+
+                <TextView
+                    android:id="@+id/cc"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Care"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/imageViewCustomer"/>
+
+                <TextView
+                    android:id="@+id/telpon"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cc"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@id/imageViewCustomer"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Number : 021 8855 1122"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
